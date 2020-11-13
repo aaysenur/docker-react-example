@@ -7,3 +7,5 @@ before_install:
 
 script:
   -   docker run aaysenur/docker-react-example npm run test -- --coverage
+
+language: generic  
